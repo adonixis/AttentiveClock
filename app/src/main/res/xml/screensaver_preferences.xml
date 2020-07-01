@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        app:key="@string/key_style_screen_saver"
+        app:defaultValue="digital"
+        app:entries="@array/style_screen_saver_entries"
+        app:entryValues="@array/style_screen_saver_values"
+        app:title="@string/title_style"
+        app:useSimpleSummaryProvider="true"
+        android:dialogTitle="@string/title_style_screen_saver"
+        />
+
+    <SwitchPreferenceCompat
+        app:key="@string/key_seconds_screen_saver"
+        app:title="@string/title_seconds_screen_saver"
+        app:defaultValue="true"
+        />
+
+    <SwitchPreferenceCompat
+        app:key="@string/key_night_mode_screen_saver"
+        app:title="@string/title_night_mode_screen_saver"
+        app:defaultValue="false"
+        app:summary="@string/summary_dim_display"
+        />
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#142550</color>
+    <color name="primary_dark">#0F1C3C</color>
+
+    <color name="background">#142550</color>
+    <color name="text">#FFFFFF</color>
+    <color name="hour_hand">#FFFFFF</color>
+    <color name="dial_outer">#142550</color>
+    <color name="dial_outer_shadow">#1A3781</color>
+    <color name="dial_inner">#22335D</color>
+    <color name="dial_inner_shadow">#14417505</color>
+    <color name="dial_strokes">#495677</color>
+</resources>

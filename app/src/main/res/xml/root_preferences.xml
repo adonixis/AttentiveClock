@@ -1,0 +1,123 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/key_appearance"
+        app:title="@string/header_appearance"
+        >
+
+        <ListPreference
+            app:key="@string/key_theme"
+            app:defaultValue="automatic"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:title="@string/title_theme"
+            app:useSimpleSummaryProvider="true"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/key_clock"
+        app:title="@string/header_clock"
+        >
+
+        <ListPreference
+            app:key="@string/key_style"
+            app:defaultValue="digital_and_analog"
+            app:entries="@array/style_entries"
+            app:entryValues="@array/style_values"
+            app:title="@string/title_style"
+            app:useSimpleSummaryProvider="true"
+            />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_seconds"
+            app:title="@string/title_seconds"
+            app:defaultValue="true"
+            />
+
+        <Preference
+            app:key="@string/key_change_date"
+            app:title="@string/title_change_date_and_time"
+            >
+
+            <intent android:action="android.settings.DATE_SETTINGS"/>
+
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/key_prompts"
+        app:title="@string/header_prompts"
+        >
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_digits_in_sequence"
+            app:title="@string/title_digits_in_sequence"
+            app:defaultValue="true"
+            app:summary="@string/summary_digits_in_sequence"
+            />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_hours_and_minutes"
+            app:title="@string/title_hours_and_minutes"
+            app:defaultValue="true"
+            app:summary="@string/summary_hours_and_minutes"
+            />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_palindrome"
+            app:title="@string/title_palindrome"
+            app:defaultValue="true"
+            app:summary="@string/summary_palindrome"
+            />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_time_and_date"
+            app:title="@string/title_time_and_date"
+            app:defaultValue="true"
+            app:summary="@string/summary_time_and_date"
+            />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_historical_dates"
+            app:title="@string/title_historical_dates"
+            app:defaultValue="false"
+            app:summary="@string/summary_historical_dates"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/key_screen_saver"
+        app:title="@string/header_screen_saver"
+        >
+
+        <ListPreference
+            app:key="@string/key_style_screen_saver"
+            app:defaultValue="digital"
+            app:entries="@array/style_screen_saver_entries"
+            app:entryValues="@array/style_screen_saver_values"
+            app:title="@string/title_style"
+            app:useSimpleSummaryProvider="true"
+            android:dialogTitle="@string/title_style_screen_saver"
+            />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_seconds_screen_saver"
+            app:title="@string/title_seconds_screen_saver"
+            app:defaultValue="true"
+            />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_night_mode_screen_saver"
+            app:title="@string/title_night_mode_screen_saver"
+            app:defaultValue="false"
+            app:summary="@string/summary_dim_display"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

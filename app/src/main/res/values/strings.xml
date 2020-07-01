@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Clock</string>
+
+    <string name="menu_screen_saver">Screen saver</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_clock_daydream_activity_settings">Screen saver settings</string>
+    <string name="daydream_name">Clock</string>
+
+    <string name="key_appearance" translatable="false">appearance</string>
+    <string name="key_clock" translatable="false">clock</string>
+    <string name="key_prompts" translatable="false">prompts</string>
+    <string name="key_screen_saver" translatable="false">screen_saver</string>
+    <string name="key_theme" translatable="false">theme</string>
+    <string name="key_style" translatable="false">style</string>
+    <string name="key_seconds" translatable="false">seconds</string>
+    <string name="key_format" translatable="false">format</string>
+    <string name="key_change_date" translatable="false">change_date</string>
+    <string name="key_digits_in_sequence" translatable="false">digits_in_sequence</string>
+    <string name="key_hours_and_minutes" translatable="false">hours_and_minutes</string>
+    <string name="key_palindrome" translatable="false">palindrome</string>
+    <string name="key_time_and_date" translatable="false">time_and_date</string>
+    <string name="key_historical_dates" translatable="false">historical_dates</string>
+    <string name="key_style_screen_saver" translatable="false">style_screen_saver</string>
+    <string name="key_seconds_screen_saver" translatable="false">seconds</string>
+    <string name="key_night_mode_screen_saver" translatable="false">night_mode_screen_saver</string>
+
+    <string name="header_appearance">Appearance</string>
+    <string name="header_clock">Clock</string>
+    <string name="header_prompts">Prompts</string>
+    <string name="header_screen_saver">Screen saver</string>
+
+    <string name="title_theme">Theme</string>
+    <string name="title_style">Style</string>
+    <string name="title_seconds">Display time with seconds</string>
+    <string name="title_24_hour">24-hour format</string>
+    <string name="title_change_date_and_time">Change date and time</string>
+    <string name="title_digits_in_sequence">Digits in sequence</string>
+    <string name="title_hours_and_minutes">Hours equals minutes</string>
+    <string name="title_palindrome">Palindrome</string>
+    <string name="title_time_and_date">Time equals date</string>
+    <string name="title_historical_dates">Historical dates</string>
+    <string name="title_style_screen_saver">Style of screen saver</string>
+    <string name="title_seconds_screen_saver">Display time with seconds</string>
+    <string name="title_night_mode_screen_saver">Night mode</string>
+
+    <string name="summary_digits_in_sequence"><i>(12:34)</i></string>
+    <string name="summary_hours_and_minutes"><i>(15:15)</i></string>
+    <string name="summary_palindrome"><i>(21:12)</i></string>
+    <string name="summary_time_and_date"><i>(08:03 and 8 March)</i></string>
+    <string name="summary_historical_dates"><i>(19:57 — Sputnik launch)</i></string>
+    <string name="summary_dim_display">Very dim display (for dark rooms)</string>
+
+    <string name="label_analog_clock">Analog clock</string>
+    <string name="label_digital_clock">Digital clock</string>
+
+</resources>

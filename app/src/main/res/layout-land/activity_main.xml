@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
+            app:popupTheme="@style/PopupMenuStyle"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <ru.adonixis.attentiveclock.view.AnalogClockView
+            android:id="@+id/analogClock"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="h,1:1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:colorDialInner="@color/dial_inner"
+            app:colorDialInnerShadow="@color/dial_inner_shadow"
+            app:colorDialOuter="@color/dial_outer"
+            app:colorDialOuterShadow="@color/dial_outer_shadow"
+            app:colorDialStrokes="@color/dial_strokes"
+            app:colorHourHand="@color/hour_hand"
+            app:colorMinuteHand="@color/minute_hand"
+            app:colorSecondHand="@color/second_hand"
+            android:visibility="visible"
+            />
+
+        <ru.adonixis.attentiveclock.view.DigitalClockView
+            android:id="@+id/digitalClock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/analogClock"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/aileron_semibold"
+            app:colorMain="@color/text"
+            app:colorAccent="@color/accent"
+            tools:text="23:16:19"
+            />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/digitalClock"
+            app:layout_constraintStart_toStartOf="@+id/digitalClock"
+            app:layout_constraintEnd_toEndOf="@+id/digitalClock"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/aileron_semibold"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            tools:text="Основание Москвы"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

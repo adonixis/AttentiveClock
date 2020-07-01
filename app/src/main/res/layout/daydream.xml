@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ru.adonixis.attentiveclock.view.DigitalClockView
+        android:id="@+id/digitalClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        android:fontFamily="@font/aileron_semibold"
+        app:colorMain="@color/white"
+        app:colorAccent="@color/accent"
+        tools:text="23:16:19"
+        android:visibility="visible"
+        tools:visibility="gone"
+        />
+
+    <ru.adonixis.attentiveclock.view.AnalogClockView
+        android:id="@+id/analogClock"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:colorDialInner="@color/dial_inner"
+        app:colorDialInnerShadow="@color/dial_inner_shadow"
+        app:colorDialOuter="@color/dial_outer"
+        app:colorDialOuterShadow="@color/dial_outer_shadow"
+        app:colorDialStrokes="@color/dial_strokes"
+        app:colorHourHand="@color/hour_hand"
+        app:colorMinuteHand="@color/minute_hand"
+        app:colorSecondHand="@color/second_hand"
+        app:showDialOuterShadow="false"
+        android:visibility="gone"
+        tools:visibility="visible"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

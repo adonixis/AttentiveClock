@@ -1,0 +1,94 @@
+<resources>
+    <string-array name="style_entries">
+        <item>Digital and analog</item>
+        <item>Digital</item>
+        <item>Analog</item>
+    </string-array>
+
+    <string-array name="style_values">
+        <item>digital_and_analog</item>
+        <item>digital</item>
+        <item>analog</item>
+    </string-array>
+
+
+    <string-array name="style_screen_saver_entries">
+        <item>Digital</item>
+        <item>Analog</item>
+    </string-array>
+
+    <string-array name="style_screen_saver_values">
+        <item>digital</item>
+        <item>analog</item>
+    </string-array>
+
+
+    <string-array name="theme_entries">
+        <item>Automatic</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>automatic</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+
+    <string-array name="historical_dates_entries">
+        <item>1147</item>
+        <item>1240</item>
+        <item>1337</item>
+        <item>1453</item>
+        <item>1618</item>
+        <item>1648</item>
+        <item>1700</item>
+        <item>1703</item>
+        <item>1709</item>
+        <item>1721</item>
+        <item>1812</item>
+        <item>1825</item>
+        <item>1853</item>
+        <item>1856</item>
+        <item>1861</item>
+        <item>1865</item>
+        <item>1914</item>
+        <item>1917</item>
+        <item>1918</item>
+        <item>1922</item>
+        <item>1939</item>
+        <item>1941</item>
+        <item>1945</item>
+        <item>1949</item>
+        <item>1957</item>
+    </string-array>
+
+    <string-array name="historical_dates_values">
+        <item>1147 — The foundation of Moscow</item>
+        <item>1240 — Battle of the Neva</item>
+        <item>1337–1453 — Hundred Years\' War</item>
+        <item>1337–1453 — Hundred Years\' War</item>
+        <item>1618–1648 — Thirty Years\' War</item>
+        <item>1618–1648 — Thirty Years\' War</item>
+        <item>1700–1721 — Great Northern War</item>
+        <item>1703 — The foundation of St. Petersburg</item>
+        <item>1709 — Battle of Poltava</item>
+        <item>1700–1721 — Great Northern War</item>
+        <item>1812 — Battle of Borodino</item>
+        <item>1825 — Decembrist revolt</item>
+        <item>1853–1856 — Crimean War</item>
+        <item>1853–1856 — Crimean War</item>
+        <item>1861–1865 — American Civil War</item>
+        <item>1861–1865 — American Civil War</item>
+        <item>1914–1918 — World War I</item>
+        <item>1917 — October Revolution</item>
+        <item>1914–1918 — World War I</item>
+        <item>1922 — USSR formation</item>
+        <item>1939–1945 — World War II</item>
+        <item>1941–1945 — The Great Patriotic War</item>
+        <item>1941–1945 — The Great Patriotic War</item>
+        <item>1949 — The foundation of NATO</item>
+        <item>1957 — Launch of the first artificial Earth satellite</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ECF1FD</color>
+    <color name="primary_dark">#757575</color>
+    <color name="accent">#D81F72</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#707070</color>
+    <color name="black">#000000</color>
+
+    <color name="background">#ECF1FD</color>
+    <color name="text">#0C0F1F</color>
+    <color name="hour_hand">#0C0F1F</color>
+    <color name="minute_hand">#9FA7BC</color>
+    <color name="second_hand">#D81F72</color>
+    <color name="dial_outer">#E7EEFB</color>
+    <color name="dial_outer_shadow">#C4D4E7</color>
+    <color name="dial_inner">#EDF1FB</color>
+    <color name="dial_inner_shadow">#59C4D4E7</color>
+    <color name="dial_strokes">#FFFFFF</color>
+</resources>

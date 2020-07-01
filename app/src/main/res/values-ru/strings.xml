@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Часы</string>
+
+    <string name="menu_screen_saver">Заставка</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="title_clock_daydream_activity_settings">Настройки заставки</string>
+    <string name="daydream_name">Часы</string>
+
+    <string name="header_appearance">Внешний вид</string>
+    <string name="header_clock">Часы</string>
+    <string name="header_prompts">Подсказки</string>
+    <string name="header_screen_saver">Заставка</string>
+
+    <string name="title_theme">Тема</string>
+    <string name="title_style">Стиль</string>
+    <string name="title_seconds">Показывать секунды</string>
+    <string name="title_24_hour">24-часовой формат</string>
+    <string name="title_change_date_and_time">Изменить дату и время</string>
+    <string name="title_digits_in_sequence">Подряд идущие цифры</string>
+    <string name="title_hours_and_minutes">Часы равны минутам</string>
+    <string name="title_palindrome">Палиндромы</string>
+    <string name="title_time_and_date">Время равно дате</string>
+    <string name="title_historical_dates">Исторические даты</string>
+    <string name="title_style_screen_saver">Стиль заставки</string>
+    <string name="title_seconds_screen_saver">Показывать секунды</string>
+    <string name="title_night_mode_screen_saver">Ночной режим</string>
+
+    <string name="summary_digits_in_sequence"><i>(12:34)</i></string>
+    <string name="summary_hours_and_minutes"><i>(15:15)</i></string>
+    <string name="summary_palindrome"><i>(21:12)</i></string>
+    <string name="summary_time_and_date"><i>(08:03 и 8 марта)</i></string>
+    <string name="summary_historical_dates"><i>(19:57 — запуск спутника)</i></string>
+    <string name="summary_dim_display">Тусклый дисплей (для темных помещений)</string>
+
+    <string name="label_analog_clock">Часы</string>
+    <string name="label_digital_clock">Часы</string>
+
+</resources>

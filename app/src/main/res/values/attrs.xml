@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="showSeconds" format="boolean" />
+
+    <declare-styleable name="AnalogClockView">
+        <attr name="showSeconds" />
+        <attr name="showDialOuterShadow" format="boolean" />
+        <attr name="showDialInnerShadow" format="boolean" />
+        <attr name="colorHourHand" format="color" />
+        <attr name="colorMinuteHand" format="color" />
+        <attr name="colorSecondHand" format="color" />
+        <attr name="colorDialOuter" format="color" />
+        <attr name="colorDialInner" format="color" />
+        <attr name="colorDialOuterShadow" format="color" />
+        <attr name="colorDialInnerShadow" format="color" />
+        <attr name="colorDialStrokes" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DigitalClockView">
+        <attr name="showSeconds" />
+        <attr name="showAMPM" format="boolean" />
+        <attr name="colorMain" format="color" />
+        <attr name="colorAccent" format="color" />
+        <attr name="showDigitsInSequence" format="boolean" />
+        <attr name="showHoursEqualsMinutes" format="boolean" />
+        <attr name="showPalindrome" format="boolean" />
+        <attr name="showTimeEqualsDate" format="boolean" />
+        <attr name="showHistoricalDates" format="boolean" />
+    </declare-styleable>
+</resources>
