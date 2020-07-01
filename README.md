@@ -4,7 +4,7 @@
 Thanks [Deegan Carrillo](https://www.uplabs.com/deegancarrillo "Deegan's profile on UpLabs") for [this design.](https://www.uplabs.com/posts/world-clock-945f5052-20c3-47c0-b243-618679736015 "Page of Clocl design on UpLabs")
 
 
-<a href='https://play.google.com/store/apps/details?id=ru.adonixis.attentiveclock&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=ru.adonixis.attentiveclock'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
 
 ![Screenshot_1](https://user-images.githubusercontent.com/1766863/86237246-dd540580-bbb4-11ea-873a-13814f105f01.png)
